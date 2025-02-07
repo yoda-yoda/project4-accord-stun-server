@@ -1,4 +1,5 @@
-FROM golang:1.21 AS builder
+# Build Stage
+FROM golang:1.23.4-alpine AS builder
 WORKDIR /app
 
 COPY go.mod go.sum ./
@@ -8,6 +9,7 @@ COPY . .
 
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o stunserver .
 
+# Runtime Stage
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates
 

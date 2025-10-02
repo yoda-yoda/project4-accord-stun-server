@@ -78,11 +78,7 @@
 ![pptImage](./assets/images/accord-ppt41.png)
 ![pptImage](./assets/images/accord-ppt42.png)
 ![pptImage](./assets/images/accord-ppt43.png)
-![pptImage](./assets/images/accord-ppt44.png)
-![pptImage](./assets/images/accord-ppt45.png)
-![pptImage](./assets/images/accord-ppt46.png)
-![pptImage](./assets/images/accord-ppt47.png)
-![pptImage](./assets/images/accord-ppt48.png)
+
 
 <br>
 </details>
